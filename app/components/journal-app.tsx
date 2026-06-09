@@ -1471,7 +1471,7 @@ export function JournalApp() {
                 </div>
 
                 <div className="mt-4">
-                  <label className={primaryButton()}>
+                  <label style={{display:'flex'}} className={`${primaryButton()} flex`}>
                     <UploadCloud size={16} />
                     انتخاب تصویر
                     <input
@@ -1552,7 +1552,7 @@ export function JournalApp() {
               <div className="relative">
                 <Search
                   size={16}
-                  className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-500"
+                  className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-slate-500"
                 />
                 <input
                   className={cn(glassInput(), "pr-11")}
