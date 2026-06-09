@@ -51,6 +51,7 @@ const ALL_TAGS: TradeTag[] = [
   "News",
   "Mistake",
   "Discipline",
+  "Continues"
 ];
 
 function cn(...classes: Array<string | false | null | undefined>) {

@@ -15,7 +15,8 @@ export type TradeTag =
   | "Reversal"
   | "News"
   | "Mistake"
-  | "Discipline";
+  | "Discipline"
+  | "Continues";
 
 export type TradeImage = {
   id: string;
